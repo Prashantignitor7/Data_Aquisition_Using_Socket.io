@@ -1,6 +1,6 @@
 .grid-item {
     color:rgb(227, 241, 237);
-    background-color: rgba(127, 131, 133, 0.589);
+    background-color: rgba(97, 102, 104, 0.589);
     border: 1px solid rgba(0, 0, 0, 0.8);
     border-radius: 50px;
     padding: 45px 45px;
@@ -10,7 +10,7 @@
   }
 
   h1 {
-    color: rgb(145, 210, 190);
+    color: rgb(133, 206, 184);
   }
 
   button{
