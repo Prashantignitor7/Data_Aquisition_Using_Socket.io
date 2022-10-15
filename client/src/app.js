@@ -7,6 +7,7 @@ const App = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     const socket = socketIOClient("http://localhost:4001");
+    // register an Event Lister from Backend 
     socket.on("data1", (data) => {
       setData(data);
     });
