@@ -16,7 +16,7 @@ const server = new socketio.Server(httpServer, {
 server.on("connection", (socket) => {
   console.log("connected");
 
-  //Creating Random Array List of numbers between 1000 to 5000 for each second
+//Creating Random Array List of numbers between 1000 to 5000 for each second
   setInterval(
     () =>
       socket.emit(
